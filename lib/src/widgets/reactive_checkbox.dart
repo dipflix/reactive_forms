@@ -7,7 +7,7 @@ import 'package:reactive_forms/reactive_forms.dart';
 
 /// This is a convenience widget that wraps a [Checkbox] widget in a
 /// [ReactiveCheckbox].
-class ReactiveCheckbox extends ReactiveFocusableFormField<bool, bool> {
+base class ReactiveCheckbox extends ReactiveFocusableFormField<bool, bool> {
   /// Create an instance of a [ReactiveCheckbox].
   ///
   /// Can optionally provide a [formControl] to bind this widget to a control.
@@ -33,8 +33,8 @@ class ReactiveCheckbox extends ReactiveFocusableFormField<bool, bool> {
     MaterialTapTargetSize? materialTapTargetSize,
     VisualDensity? visualDensity,
     bool autofocus = false,
-    MaterialStateProperty<Color?>? fillColor,
-    MaterialStateProperty<Color?>? overlayColor,
+    WidgetStateProperty<Color?>? fillColor,
+    WidgetStateProperty<Color?>? overlayColor,
     double? splashRadius,
     super.focusNode,
     OutlinedBorder? shape,

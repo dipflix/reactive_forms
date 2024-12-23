@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:reactive_forms/reactive_forms.dart';
 
 /// A reactive widget that wraps a [DropdownButtonFormField].
-class ReactiveDropdownField<T> extends ReactiveFocusableFormField<T, T> {
+base class ReactiveDropdownField<T> extends ReactiveFocusableFormField<T, T> {
   /// Creates a [DropdownButton] widget wrapped in an [InputDecorator].
   ///
   /// Can optionally provide a [formControl] to bind this widget to a control.

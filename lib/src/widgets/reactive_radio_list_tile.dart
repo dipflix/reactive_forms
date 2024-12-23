@@ -13,7 +13,7 @@ import 'package:reactive_forms/reactive_forms.dart';
 ///
 /// For documentation about the various parameters, see the [RadioListTile]
 /// class and [RadioListTile], the constructor.
-class ReactiveRadioListTile<T> extends ReactiveFocusableFormField<T, T> {
+base class ReactiveRadioListTile<T> extends ReactiveFocusableFormField<T, T> {
   /// Create an instance of a [ReactiveRadioListTile].
   ///
   /// Can optionally provide a [formControl] to bind this widget to a control.

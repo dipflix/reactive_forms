@@ -17,7 +17,7 @@ typedef ReactiveSliderLabelBuilder = String Function(double);
 ///
 /// For documentation about the various parameters, see the [Slider] class
 /// and [Slider], the constructor.
-class ReactiveSlider extends ReactiveFocusableFormField<num, double> {
+base class ReactiveSlider extends ReactiveFocusableFormField<num, double> {
   /// Creates an instance os a [ReactiveSlider].
   ///
   /// Can optionally provide a [formControl] to bind this widget to a control.

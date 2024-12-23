@@ -11,14 +11,19 @@ import 'package:reactive_forms/reactive_forms.dart';
 ///
 /// The [Listenable] is provided by the [notifierDelegate].
 ///
-class FormControlInheritedStreamer extends InheritedStreamer<dynamic> {
+final class FormControlInheritedStreamer extends InheritedStreamer<dynamic> {
   /// The control that this widget will be listening to.
   final AbstractControl<Object> control;
 
-  FormControlInheritedStreamer({
-    Key? key,
+  const FormControlInheritedStreamer({
+    super.key,
     required this.control,
-    required Stream<dynamic> stream,
-    required Widget child,
-  }) : super(stream, child, key: key);
+    required super.stream,
+    required super.child,
+  });
+
+  @override
+  bool updateShouldNotify(FormControlInheritedStreamer oldWidget) {
+    return oldWidget.stream != stream || oldWidget.control != control;
+  }
 }

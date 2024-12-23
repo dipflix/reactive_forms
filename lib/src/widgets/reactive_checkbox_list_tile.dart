@@ -7,7 +7,7 @@ import 'package:reactive_forms/reactive_forms.dart';
 
 /// This is a convenience widget that wraps a [CheckboxListTile] widget in a
 /// [ReactiveCheckboxListTile].
-class ReactiveCheckboxListTile extends ReactiveFocusableFormField<bool, bool> {
+base class ReactiveCheckboxListTile extends ReactiveFocusableFormField<bool, bool> {
   /// Create an instance of a [ReactiveCheckbox].
   ///
   /// Can optionally provide a [formControl] to bind this widget to a control.
@@ -46,9 +46,9 @@ class ReactiveCheckboxListTile extends ReactiveFocusableFormField<bool, bool> {
     BorderSide? side,
     ReactiveFormFieldCallback<bool>? onChanged,
     MouseCursor? mouseCursor,
-    MaterialStateProperty<Color?>? fillColor,
+    WidgetStateProperty<Color?>? fillColor,
     Color? hoverColor,
-    MaterialStateProperty<Color?>? overlayColor,
+    WidgetStateProperty<Color?>? overlayColor,
     double? splashRadius,
     MaterialTapTargetSize? materialTapTargetSize,
     ValueChanged<bool>? onFocusChange,

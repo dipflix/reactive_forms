@@ -13,7 +13,7 @@ import 'package:reactive_forms/reactive_forms.dart';
 ///
 /// For documentation about the various parameters, see the [Radio] class
 /// and [Radio], the constructor.
-class ReactiveRadio<T> extends ReactiveFocusableFormField<T, T> {
+base class ReactiveRadio<T> extends ReactiveFocusableFormField<T, T> {
   /// Creates a [ReactiveRadio] that contains a [Radio].
   ///
   /// Can optionally provide a [formControl] to bind this widget to a control.

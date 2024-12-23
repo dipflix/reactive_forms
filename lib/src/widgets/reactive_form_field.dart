@@ -29,7 +29,7 @@ typedef ReactiveFormFieldCallback<T> = void Function(FormControl<T> control);
 /// so that updates and validation errors are visually reflected in the UI.
 ///
 /// It is the base class for all other reactive widgets.
-class ReactiveFormField<ModelDataType, ViewDataType> extends StatefulWidget {
+base class ReactiveFormField<ModelDataType, ViewDataType> extends StatefulWidget {
   /// Function that returns the widget representing this form field. It is
   /// passed the form field state as input, containing the current value and
   /// validation state of this field.
@@ -60,7 +60,7 @@ class ReactiveFormField<ModelDataType, ViewDataType> extends StatefulWidget {
   /// at the same time.
   ///
   /// The [builder] arguments are required.
-  ReactiveFormField({
+  const ReactiveFormField({
     super.key,
     this.formControl,
     this.formControlName,

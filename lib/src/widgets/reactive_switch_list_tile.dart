@@ -19,7 +19,7 @@ import 'package:reactive_forms/reactive_forms.dart';
 ///
 /// For documentation about the various parameters, see the [SwitchListTile]
 /// class and [SwitchListTile], the constructor.
-class ReactiveSwitchListTile extends ReactiveFocusableFormField<bool, bool> {
+base class ReactiveSwitchListTile extends ReactiveFocusableFormField<bool, bool> {
   /// Create an instance of a [ReactiveCheckbox].
   ///
   /// The [formControlName] arguments must not be null.

@@ -38,7 +38,7 @@ typedef ReactiveDatePickerBuilder<T> = Widget Function(
 ///   },
 /// )
 /// ```
-class ReactiveDatePicker<T> extends ReactiveFormField<T, DateTime> {
+base class ReactiveDatePicker<T> extends ReactiveFormField<T, DateTime> {
   /// Creates a [ReactiveDatePicker] that wraps the function [showDatePicker].
   ///
   /// Can optionally provide a [formControl] to bind this widget to a control.

@@ -43,7 +43,7 @@ typedef ReactiveTimePickerBuilder = Widget Function(
 ///   },
 /// )
 /// ```
-class ReactiveTimePicker extends ReactiveFormField<TimeOfDay, TimeOfDay> {
+base class ReactiveTimePicker extends ReactiveFormField<TimeOfDay, TimeOfDay> {
   /// Creates a [ReactiveTimePicker] that wraps the function [showTimePicker].
   ///
   /// Can optionally provide a [formControl] to bind this widget to a control.

@@ -19,7 +19,7 @@ import 'package:reactive_forms/reactive_forms.dart';
 ///
 /// For documentation about the various parameters, see the [Switch] class
 /// and [Switch], the constructor.
-class ReactiveSwitch extends ReactiveFocusableFormField<bool, bool> {
+base class ReactiveSwitch extends ReactiveFocusableFormField<bool, bool> {
   /// Creates a [ReactiveSwitch] that wraps a material design switch.
   ///
   /// Can optionally provide a [formControl] to bind this widget to a control.

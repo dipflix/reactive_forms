@@ -11,8 +11,8 @@ import 'package:reactive_forms/reactive_forms.dart';
 /// All reactive widgets that can get/remove focus from the UI like
 /// [ReactiveTextField], [ReactiveRadio], [ReactiveCheckbox], and many others
 /// inherit from this widget.
-class ReactiveFocusableFormField<T, V> extends ReactiveFormField<T, V> {
-  ReactiveFocusableFormField({
+base class ReactiveFocusableFormField<T, V> extends ReactiveFormField<T, V> {
+  const ReactiveFocusableFormField({
     super.key,
     super.formControlName,
     super.formControl,

@@ -16,7 +16,7 @@ import 'package:reactive_forms/reactive_forms.dart';
 ///
 /// A [ReactiveForm] ancestor is required.
 ///
-class ReactiveTextField<T> extends ReactiveFormField<T, String> {
+base class ReactiveTextField<T> extends ReactiveFormField<T, String> {
   final TextEditingController? _textController;
 
   static Widget _defaultContextMenuBuilder(
